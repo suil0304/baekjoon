@@ -26,7 +26,7 @@
 int main() {
     long long n;
     scanf("%lld", &n);
-    printf("%lld\n", n * n * n); // O(n) - 수행시간이 데이터의 크기의 세제곱꼴을 따름
+    printf("%lld\n", n * n * n); // O(n³) - 수행시간이 데이터의 크기의 세제곱꼴을 따름
     printf("%d\n", 3); // 최고 차항 차수 - 미지수 n^3 -> 3
 
     return 0;
