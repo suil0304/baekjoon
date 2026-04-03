@@ -1,2 +1,0 @@
-def function() -> None:
-    pass
