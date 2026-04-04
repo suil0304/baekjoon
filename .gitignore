@@ -1,0 +1,7 @@
+.vscode/
+test/
+
+*.exe
+*.ilk
+*.obj
+*.pdb
