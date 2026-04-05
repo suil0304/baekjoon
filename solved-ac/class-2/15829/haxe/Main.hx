@@ -18,5 +18,6 @@ class Main {
         }
         
         Sys.println(sum);
+        stdin.close();
     }
 }

@@ -1,7 +1,12 @@
+# Folder like
 .vscode/
 test/
 
+# C
 *.exe
 *.ilk
 *.obj
 *.pdb
+
+# Haxe
+**/haxe/*.py

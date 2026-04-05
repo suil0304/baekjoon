@@ -12,6 +12,14 @@ C 언어로만 풀었다.
 - **[벌집](https://www.acmicpc.net/problem/2292) ([2292](../../step-by-step/8/2292/2292.c))** - 브론즈 2
 - **[블랙잭](https://www.acmicpc.net/problem/2798) ([2798](../../step-by-step/12/2798/2798.c))** - 브론즈 2
 - **[Hasing](https://www.acmicpc.net/problem/15829) ([15829](./15829/c/15829.c))** - 브론즈 2
+- **[팰린드롬 수](https://www.acmicpc.net/problem/1259) ([1259](./essential/1259/c/1259.c))** - 브론즈 1 ***(에센셜 문제)***
+- **[평균](https://www.acmicpc.net/problem/1546) ([1546](../../step-by-step/4/1546/1546.c))** - 브론즈 1 ***(에센셜 문제)***
+- **[최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) ([1259](./essential/2609/2609.c))** - 브론즈 1 ***(에센셜 문제)***
+- **[달팽이는 올라가고 싶다](https://www.acmicpc.net/problem/2869) ([2869](../../step-by-step/8/2869/2869.c))** - 브론즈 1
+- **[부녀회장이 될테야](https://www.acmicpc.net/problem/2775) ([2775](./2775/c/2775.c))** - 브론즈 1
+- **[수 정렬하기 3](https://www.acmicpc.net/problem/10989) ([10989](./10989/c/10989.c))** - 브론즈 1
+- **[이항 계수 1](https://www.acmicpc.net/problem/11050) ([11050](./essential/11050/11050.c))** - 브론즈 1 ***(에센셜 문제)***
+- **[ISBN](https://www.acmicpc.net/problem/14626) ([14626](./14626/14626.c))** - 브론즈 1
 
 ## 난이도 정보
 <ul>
