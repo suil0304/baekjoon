@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-int compare(const void* a, const void* b);
+int compareNum(const void* a, const void* b);
 
 int main() {
     int n;
@@ -23,7 +23,7 @@ int main() {
         ranks[i] = rank;
     }
 
-    qsort(ranks, n, sizeof(int), compare);
+    qsort(ranks, n, sizeof(int), compareNum);
 
     int trimNum = (int) round(n * .15);
 
@@ -40,6 +40,6 @@ int main() {
     return 0;
 }
 
-int compare(const void* a, const void* b) {
+int compareNum(const void* a, const void* b) {
     return *(int*) a - *(int*) b;
 }

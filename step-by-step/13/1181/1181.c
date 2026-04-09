@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int compare(const void* a, const void* b);
+int compareNum(const void* a, const void* b);
 
 int main() {
     int n;
@@ -13,7 +13,7 @@ int main() {
         scanf("%s", strArray[i]);
     }
 
-    qsort(strArray, n, sizeof(*strArray), compare);
+    qsort(strArray, n, sizeof(*strArray), compareNum);
 
     char prev[51] = {0, };
     for(int i = 0; i < n; i++) {
@@ -28,7 +28,7 @@ int main() {
     return 0;
 }
 
-int compare(const void* a, const void* b) {
+int compareNum(const void* a, const void* b) {
     int lengthA = (int) strlen((char*) a);
     int lengthB = (int) strlen((char*) b);
 

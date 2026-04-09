@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int compare(const void* a, const void* b);
+int compareNum(const void* a, const void* b);
 int lowerBound(int* arr, int low, int high, int key);
 int upperBound(int* arr, int low, int high, int key);
 
@@ -19,7 +19,7 @@ int main() {
         nums[i] = num;
     }
 
-    qsort(nums, n, sizeof(int), compare);
+    qsort(nums, n, sizeof(int), compareNum);
 
     int q;
     scanf("%d", &q);
@@ -36,7 +36,7 @@ int main() {
     return 0;
 }
 
-int compare(const void* a, const void* b) {
+int compareNum(const void* a, const void* b) {
     return *(int*) a - *(int*) b;
 }
 

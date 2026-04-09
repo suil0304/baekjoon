@@ -21,7 +21,7 @@ Document shift(Queue* queue);
 int isEmpty(Queue* queue);
 void destroyQueue(Queue* queue);
 // qsort compare function
-int compare(const void* a, const void* b);
+int compareNum(const void* a, const void* b);
 
 int main() {
     Queue queue;
@@ -50,7 +50,7 @@ int main() {
             priorities[i] = priority;
         }
 
-        qsort(priorities, docuNum, sizeof(int), compare);
+        qsort(priorities, docuNum, sizeof(int), compareNum);
 
         int count = 0;
         while(!isEmpty(&queue)) {
@@ -111,6 +111,6 @@ void destroyQueue(Queue* queue) {
     queue->length = -1;
 }
 
-int compare(const void* a, const void* b) {
+int compareNum(const void* a, const void* b) {
     return *(int*) b - *(int*) a;
 }

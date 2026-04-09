@@ -3,7 +3,7 @@
 
 // 도움 받음 - AI + 인터넷 (C11 (Clang) 이슈)
 
-int compare(const void* a, const void* b);
+int compareNum(const void* a, const void* b);
 
 int main() {
     int craneNum;
@@ -24,8 +24,8 @@ int main() {
         scanf("%d", &boxes[i]);
     }
     
-    qsort(cranes, craneNum, sizeof(int), compare);
-    qsort(boxes, boxNum, sizeof(int), compare);
+    qsort(cranes, craneNum, sizeof(int), compareNum);
+    qsort(boxes, boxNum, sizeof(int), compareNum);
 
     if(boxes[0] > cranes[0]) {
         printf("%d\n", -1);
@@ -68,6 +68,6 @@ int main() {
     return 0;
 }
 
-int compare(const void* a, const void* b) { // descending
+int compareNum(const void* a, const void* b) { // descending
     return *(int*) b - *(int*) a;
 }

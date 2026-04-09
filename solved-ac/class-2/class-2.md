@@ -17,17 +17,17 @@ C 언어로만 풀었다.
 - **[최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) ([1259](./essential/2609/2609.c))** - 브론즈 1 ***(에센셜 문제)***
 - **[달팽이는 올라가고 싶다](https://www.acmicpc.net/problem/2869) ([2869](../../step-by-step/8/2869/2869.c))** - 브론즈 1
 - **[부녀회장이 될테야](https://www.acmicpc.net/problem/2775) ([2775](./2775/c/2775.c))** - 브론즈 1
-- **[수 정렬하기 3](https://www.acmicpc.net/problem/10989) ([10989](./10989/c/10989.c))** - 브론즈 1
+- **[수 정렬하기 3](https://www.acmicpc.net/problem/10989) ([10989](../../step-by-step/13/10989/c/10989.c))** - 브론즈 1
 - **[이항 계수 1](https://www.acmicpc.net/problem/11050) ([11050](./essential/11050/11050.c))** - 브론즈 1 ***(에센셜 문제)***
 - **[ISBN](https://www.acmicpc.net/problem/14626) ([14626](./14626/14626.c))** - 브론즈 1
 - **[FizzBuzz](https://www.acmicpc.net/problem/28702) ([28702](./28702/28702.c))** - 브론즈 1
-- **[단어 정렬](https://www.acmicpc.net/problem/1181) ([1181](./essential/1181/1181.c))** - 실버 5 ***(에센셜 문제)***
+- **[단어 정렬](https://www.acmicpc.net/problem/1181) ([1181](../../step-by-step/13/1181/1181.c))** - 실버 5 ***(에센셜 문제)***
 - **[팩토리얼 0의 개수](https://www.acmicpc.net/problem/1676) ([1676](./1676/1676.c))** - 실버 5
-- **[수 정렬하기 2](https://www.acmicpc.net/problem/2751) ([2751](./essential/2751/2751.c))** - 실버 5 ***(에센셜 문제)***
+- **[수 정렬하기 2](https://www.acmicpc.net/problem/2751) ([2751](../../step-by-step/13/2751/2751.c))** - 실버 5 ***(에센셜 문제)***
 - **[덩치](https://www.acmicpc.net/problem/7568) ([7568](./7568/7568.c))** - 실버 5
-- **[나이순 정렬](https://www.acmicpc.net/problem/10814) ([10814](./essential/10814/10814.c))** - 실버 5 ***(에센셜 문제)***
-- **[좌표 정렬하기](https://www.acmicpc.net/problem/11650) ([11650](./essential/11650/11650.c))** - 실버 5 ***(에센셜 문제)***
-- **[좌표 정렬하기 2](https://www.acmicpc.net/problem/11651) ([11651](./11651/11651.c))** - 실버 5
+- **[나이순 정렬](https://www.acmicpc.net/problem/10814) ([10814](../../step-by-step/13/10814/10814.c))** - 실버 5 ***(에센셜 문제)***
+- **[좌표 정렬하기](https://www.acmicpc.net/problem/11650) ([11650](../../step-by-step/13/11650/11650.c))** - 실버 5 ***(에센셜 문제)***
+- **[좌표 정렬하기 2](https://www.acmicpc.net/problem/11651) ([11651](../../step-by-step/13/11651/11651.c))** - 실버 5
 - **[수 찾기](https://www.acmicpc.net/problem/1920) ([1920](./essential/1920/1920.c))** - 실버 4 ***(에센셜 문제)***
 - **[카드2](https://www.acmicpc.net/problem/2164) ([2164](./essential/2164/2164.c))** - 실버 4 ***(에센셜 문제)***
 - **[균형잡힌 세상](https://www.acmicpc.net/problem/4949) ([4949](./4949/4949.c))** - 실버 4
@@ -41,6 +41,8 @@ C 언어로만 풀었다.
 - **[체스판 다시 칠하기](https://www.acmicpc.net/problem/1018) ([1018](../../step-by-step/12/1018/1018.c))** - 실버 3
 - **[소수 구하기](https://www.acmicpc.net/problem/1929) ([1929](./1929/1929.c))** - 실버 3
 - **[프린터 큐](https://www.acmicpc.net/problem/1966) ([1966](./1966/1966.c))** - 실버 3
+- **[스택 수열](https://www.acmicpc.net/problem/1874) ([1874](./1874/1874.c))** - 실버 2
+- **[통계학](https://www.acmicpc.net/problem/2108) ([2108](./2108/2108.c))** - 실버 2
 
 ## 난이도 정보
 <ul>
@@ -61,9 +63,9 @@ C 언어로만 풀었다.
         풀이 시작: ?
     </li>
     <li>
-        풀이 끝: ?
+        풀이 끝: 2026년 4월 9일
     </li>
     <li>
-        업로드: ?
+        업로드: 2026년 4월 9일
     </li>
 </ul>

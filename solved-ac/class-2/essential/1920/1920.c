@@ -7,7 +7,7 @@
 // 아니 근데 시간 초과가 나버리네???
 // 어쩔 수 없이 stdlib.h의 함수들을 사용하게 되었습니다.
 
-int compare(const void* a, const void* b);
+int compareNum(const void* a, const void* b);
 // void quickSort(int* arr, int low, int high);
 // int binarySearch(int* arr, int low, int high, int key);
 
@@ -25,7 +25,7 @@ int main() {
         nums[i] = num;
     }
 
-    qsort(nums, n, sizeof(int), compare);
+    qsort(nums, n, sizeof(int), compareNum);
 
     int q;
     scanf("%d", &q);
@@ -34,7 +34,7 @@ int main() {
         int query;
         scanf("%d", &query);
 
-        printf("%d\n", bsearch(&query, nums, n, sizeof(int), compare) != NULL);
+        printf("%d\n", bsearch(&query, nums, n, sizeof(int), compareNum) != NULL);
     }
 
     free(nums);
@@ -42,7 +42,7 @@ int main() {
     return 0;
 }
 
-int compare(const void* a, const void* b) {
+int compareNum(const void* a, const void* b) {
     if(*(int*) a > *(int*) b) {
         return 1;
     }
