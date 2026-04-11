@@ -5,9 +5,9 @@
 #define HASH_POWER 31
 #define HASH_MOD_NUM1 1000000007
 #define HASH_MOD_NUM2 2147483647
-#define HASH_INSERT_NUM 750007
+#define HASH_INSERT_MOD_NUM 750007
 
-long long hashArray[HASH_INSERT_NUM] = {0, };
+long long hashArray[HASH_INSERT_MOD_NUM] = {0, };
 
 void hashInsert(long long hash1, long long hash2);
 
@@ -31,7 +31,7 @@ int main() {
     }
 
     int count = 0;
-    for(int i = 0; i < HASH_INSERT_NUM; i++) {
+    for(int i = 0; i < HASH_INSERT_MOD_NUM; i++) {
         if(hashArray[i] != 0) {
             count++;
         }
@@ -44,12 +44,12 @@ int main() {
 
 void hashInsert(long long hash1, long long hash2) {
     long long hashCombined = (hash1 << 32) | hash2;
-    int index = hashCombined % HASH_INSERT_NUM;
+    int index = hashCombined % HASH_INSERT_MOD_NUM;
     while(hashArray[index] != 0) {
         if(hashArray[index] == hashCombined) {
             return;
         }
-        index = (index + 1) % HASH_INSERT_NUM;
+        index = (index + 1) % HASH_INSERT_MOD_NUM;
     }
 
     hashArray[index] = hashCombined;

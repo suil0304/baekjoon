@@ -4,10 +4,6 @@
 
 // 이게 어떻게 실버 3???
 
-#define min(a, b) (\
-    (a < b) ? (a) : (b) \
-)
-
 int counts[1000001] = {0, };
 
 int main() {

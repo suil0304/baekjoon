@@ -39,7 +39,7 @@ C 언어로만 풀었다.
 - **[요세푸스 문제 0](https://www.acmicpc.net/problem/11866) ([11866](./essential/11866/11866.c))** - 실버 4 ***(에센셜 문제)***
 - **[solved.ac](https://www.acmicpc.net/problem/18110) ([18110](./18110/18110.c))** - 실버 4
 - **[체스판 다시 칠하기](https://www.acmicpc.net/problem/1018) ([1018](../../step-by-step/12/1018/1018.c))** - 실버 3
-- **[소수 구하기](https://www.acmicpc.net/problem/1929) ([1929](./1929/1929.c))** - 실버 3
+- **[소수 구하기](https://www.acmicpc.net/problem/1929) ([1929](../../step-by-step/15/1929/1929.c))** - 실버 3
 - **[프린터 큐](https://www.acmicpc.net/problem/1966) ([1966](./1966/1966.c))** - 실버 3
 - **[스택 수열](https://www.acmicpc.net/problem/1874) ([1874](./1874/1874.c))** - 실버 2
 - **[통계학](https://www.acmicpc.net/problem/2108) ([2108](./2108/2108.c))** - 실버 2
