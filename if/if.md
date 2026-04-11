@@ -8,7 +8,7 @@
 **(문제의 이름은 백준 문제로, 문제의 번호는 코드로 이어집니다.)**
 - **[if](https://www.acmicpc.net/problem/15549) ([15549](./15549/15549.txt))** - 실버 5
 - **[if2](https://www.acmicpc.net/problem/15550) ([15550](./15550/15550.txt))** - 골드 4
-- **[if3](https://www.acmicpc.net/problem/15551) ([15551](./15551/15551.txt))** - 골드 4
+- **[if3](https://www.acmicpc.net/problem/15551) ([15551](./15551/15551.c))** - 골드 4
 
 ## 난이도 정보
 <ul>
