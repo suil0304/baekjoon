@@ -30,9 +30,9 @@ C 언어로만 풀었다.
 - **[좌표 정렬하기 2](https://www.acmicpc.net/problem/11651) ([11651](../../step-by-step/13/11651/11651.c))** - 실버 5
 - **[수 찾기](https://www.acmicpc.net/problem/1920) ([1920](./essential/1920/1920.c))** - 실버 4 ***(에센셜 문제)***
 - **[카드2](https://www.acmicpc.net/problem/2164) ([2164](./essential/2164/2164.c))** - 실버 4 ***(에센셜 문제)***
-- **[균형잡힌 세상](https://www.acmicpc.net/problem/4949) ([4949](./4949/4949.c))** - 실버 4
-- **[괄호](https://www.acmicpc.net/problem/9012) ([9012](./essential/9012/9012.c))** - 실버 4 ***(에센셜 문제)***
-- **[제로](https://www.acmicpc.net/problem/10773) ([10773](./10773/10773.c))** - 실버 4
+- **[균형잡힌 세상](https://www.acmicpc.net/problem/4949) ([4949](../../step-by-step/16/4949/4949.c))** - 실버 4
+- **[괄호](https://www.acmicpc.net/problem/9012) ([9012](../../step-by-step/16/9012/9012.c))** - 실버 4 ***(에센셜 문제)***
+- **[제로](https://www.acmicpc.net/problem/10773) ([10773](../../step-by-step/16/10773/10773.c))** - 실버 4
 - **[숫자 카드 2](https://www.acmicpc.net/problem/10816) ([10816](./essential/10816/10816.c))** - 실버 4 ***(에센셜 문제)***
 - **[스택](https://www.acmicpc.net/problem/10828) ([10828](./essential/10828/10828.c))** - 실버 4 ***(에센셜 문제)***
 - **[큐](https://www.acmicpc.net/problem/10845) ([10845](./essential/10845/10845.c))** - 실버 4 ***(에센셜 문제)***
