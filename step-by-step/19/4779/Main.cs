@@ -1,3 +1,5 @@
+// unsolved
+
 string? str;
 while((str = Console.ReadLine()) != null)
 {
